@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <title>On Error</title>
+    <script type="text/javascript">
+    window.onerror = function(err) { alert(err.stack || err.message || err); };
+    </script>
+  </head>
+  <body>
+    <script src="index.js"></script>
+  </body>
+</html>
